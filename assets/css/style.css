@@ -279,14 +279,13 @@ h4 {
 
 .about .col-md-6:last-child {
     position: absolute;
-    top: 20%;
     right: 0;
     bottom: 0;
 }
 
 .about .tituli {
     font-size: 58px;
-    font-weight: 600;
+    font-weight: 400px;
     margin: 0 0 15px;
     color: rgb(75, 74, 74);
     font-family: 'Dancing Script', cursive;
@@ -294,7 +293,7 @@ h4 {
 
 .about p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400px;
 }
 
 .job-title {
@@ -303,7 +302,9 @@ h4 {
 }
 
 .img {
-    height: 400px;
+    height: 600px;
+    width: 600px;
+    max-width: 400px;
 }
 
 

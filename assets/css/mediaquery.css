@@ -105,6 +105,17 @@
         .about img {
             height: 500px;
         }
+        .about .col-md-6:first-child {
+            position: absolute;
+            top: 45%;
+            left: 0;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            z-index: 2;
+        }
         /* SITEMAIN
 	================================================== */
         /* Modal */
@@ -127,6 +138,17 @@
         }
         .about .tituli {
             font-size: 38px
+        }
+        .about .col-md-6:first-child {
+            position: absolute;
+            top: 45%;
+            left: 0;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            z-index: 2;
         }
         .btn {
             font-size: 10px;
@@ -230,6 +252,17 @@
             .about img {
                 height: 340px
             }
+            .about .col-md-6:first-child {
+                position: absolute;
+                top: 28%;
+                left: 0;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
+                z-index: 2;
+            }
             /* SITEMAIN
 	================================================== */
             /* site-section */
@@ -291,18 +324,18 @@
                 text-align: center;
             }
             .redes-sociales a i {
-                font-size: 22px;
-                line-height: 40px;
+                font-size: 18px;
+                line-height: 28px;
             }
             .redes-sociales a {
-                width: 40px;
-                height: 40px;
+                width: 30px;
+                height: 30px;
             }
             footer p {
-                font-size: 15px;
+                font-size: 14px;
             }
             footer span {
-                font-size: 18px;
+                font-size: 16px;
             }
         }
         /* Extra Small Devices, Phones */

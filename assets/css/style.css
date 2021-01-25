@@ -54,7 +54,7 @@ header nav {
     left: 0;
     right: 0;
     margin: 20px auto;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -215,7 +215,7 @@ h4 {
     line-height: 42px;
     padding: 7px;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 400;
     text-transform: uppercase;
     border-radius: 0;
     transition: box-shadow 0.25s ease-in-out;
@@ -273,7 +273,7 @@ h4 {
 
 .about .col-md-6:first-child {
     position: absolute;
-    top: 48%;
+    top: 40%;
     left: 0;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
@@ -316,7 +316,7 @@ h4 {
 
 .site-main {
     position: relative;
-    background-color: #fff;
+    background-color: rgba(167, 164, 164, 0.386);
 }
 
 
@@ -328,9 +328,8 @@ h4 {
 
 .site-section h2,
 .site-section h3 {
-    font-size: 36px;
+    font-size: 40px;
     margin: 0;
-    text-transform: uppercase;
 }
 
 .site-section p {
@@ -426,6 +425,10 @@ h4 {
     margin-top: 10px;
 }
 
+.section-portfolio h2 {
+    font-size: 40px
+}
+
 
 /* skill */
 
@@ -447,13 +450,17 @@ h4 {
 }
 
 .habilidadis .row {
-    margin: 30px 30px;
+    margin: 30px 15px 0 20px;
     text-align: center;
-    padding: 20px 20px;
+    padding: 30px 15px 0 30px;
 }
 
 .card-body {
     background-color: rgb(255, 255, 255);
+}
+
+.habilidadis p {
+    font-size: 40px;
 }
 
 
@@ -461,10 +468,24 @@ h4 {
 
 .hice {
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     position: relative;
-    background-color: rgba(255, 255, 255, 0.386);
+    background-color: rgba(75, 75, 75);
+    padding: 10px
+}
+
+.hice p {
+    font-size: 40px;
+    text-shadow: rgba(0, 0, 0, 0.591) 0.1em 0.1em 0.1em;
+}
+
+.hice .row p {
+    font-size: 20px;
+}
+
+.hice .container {
+    height: 100% width: 100%;
 }
 
 .btna:hover {
@@ -570,6 +591,14 @@ h4 {
     position: relative;
 }
 
+.ubicame h2 {
+    font-size: 40px;
+}
+
+.ubicame h3 {
+    font-size: 25px;
+}
+
 .ubicame:before {
     content: '';
     position: absolute;
@@ -623,7 +652,7 @@ h3 {
 }
 
 .redes-sociales a i {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 60px;
 }
 
@@ -650,7 +679,7 @@ footer .icon {
     line-height: 40px;
     padding: 9px 11px;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .icon i:before {
@@ -675,4 +704,12 @@ footer span {
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.571);
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer span {
+    font-size: 25px;
 }

@@ -22,6 +22,9 @@ function main() {
 
 };
 
+
+
+
 $(function() {
 
     $("a").click(function(event) {
@@ -39,7 +42,6 @@ $(function() {
     });
 
     $('[data-toggle="popover"]').popover();
-
 });
 
 //jQuery for page scrolling feature - requires jQuery Easing plugin
